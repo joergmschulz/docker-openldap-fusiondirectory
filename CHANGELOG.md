@@ -1,7 +1,7 @@
-## 2.6-1.4-7.6.9 2024-05-23 <dave at tiredofit dot ca>
+## 2.6-1.4-7.6.9 2024-05-26 <dave at tiredofit dot ca>
 
    ### Added
-      - Add libuuid, libsasl, libevent to run dependencies
+      - Pin to tiredofit/openldap:2.6-7.6.9
 
 
 ## 2.6-1.4-7.6.8 2024-05-22 <dave at tiredofit dot ca>
