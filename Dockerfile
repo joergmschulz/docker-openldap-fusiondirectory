@@ -15,7 +15,7 @@ RUN source /assets/functions/00-container && \
     set -x && \
     package update && \
     package upgrade && \
-    package install git && \
+    package install git libsasl libuuid && \
     \
     ## Fetch Install FusionDirectory
     clone_git_repo "${FUSIONDIRECTORY_REPO_URL}" "${FUSIONDIRECTORY_VERSION}" /usr/src/fusiondirectory && \
