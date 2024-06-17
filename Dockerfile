@@ -1,4 +1,4 @@
-FROM joergschulz/openldap
+FROM docker.io/tiredofit/openldap:2.6-7.6.9
 LABEL maintainer="Dave Conroy (github.com/tiredofit)"
 
 ARG FUSIONDIRECTORY_VERSION
@@ -9,7 +9,7 @@ ENV FUSIONDIRECTORY_VERSION=b246399ff2d3dc74565c9f3897e4a3544e0c51d1 \
     FUSIONDIRECTORY_PLUGINS_VERSION=b0078c722634cbd42fe2b0231eb8d40c6d87df3e \
     FUSIONDIRECTORY_PLUGINS_REPO_URL=https://github.com/fusiondirectory/fusiondirectory-plugins \
     IMAGE_NAME="joergschulz/openldap-fusiondirectory" \
-    IMAGE_REPO_URL="https://github.com/joergschulz/docker-openldap-fusiondirectory/"
+    IMAGE_REPO_URL="https://github.com/joergmschulz/docker-openldap-fusiondirectory/"
 
 RUN source /assets/functions/00-container && \
     set -x && \
