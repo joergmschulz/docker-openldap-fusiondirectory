@@ -18,6 +18,7 @@ RUN source /assets/functions/00-container && \
     package install git && \
     package install libsasl && \
     package install libuuid && \
+    package install libltdl && \
     \
     ## Fetch Install FusionDirectory
     clone_git_repo "${FUSIONDIRECTORY_REPO_URL}" "${FUSIONDIRECTORY_VERSION}" /usr/src/fusiondirectory && \
